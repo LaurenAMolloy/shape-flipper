@@ -1,0 +1,140 @@
+/*
+=============== 
+Global Styles
+===============
+*/
+
+html{
+  font-size: 16px;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    background-color: #f6f6f6;
+    color: #16537e;
+    font-size: .9em;
+    
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   }
+
+h1,
+h2
+ {
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: .875em;
+  line-height: 1.285;
+ }
+
+img { 
+  width: 100%;
+}
+
+.content-wrapper {
+  width: 90%;
+  margin: 40px auto;
+  
+}
+
+
+/*
+=============== 
+Base Header-Footer Styles
+===============
+*/
+
+header {
+  display:flex;
+  justify-content: center;
+  background-color:#FB6793;
+}
+
+header nav {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+header nav ul li {
+  font-size: 1.125em;
+  padding: 0 20px;
+  font-family: "Poppins", sans-serif;
+
+}
+
+footer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-color: #FB6793;
+}
+
+/* -------------------- Mobile Styles -------------------- */
+
+main .content-wrapper{
+  display: flex;
+  justify-content: center;
+  background-color: aquamarine;
+  border: solid 1px #f9a8d4;
+  border-radius: 3px;
+}
+
+.inner-content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  width: 50%;
+  height: 700px;
+}
+
+
+.image-container {
+  height: 500px;
+}
+
+.giphy.hide {
+  display: none;
+}
+
+
+
+.btn {
+background-color: #FF97A5; 
+color: #16537e;
+padding: 20px;
+font-weight: bold;
+border-radius: 5px;
+}
+
+
+
+
+
+
+
+
